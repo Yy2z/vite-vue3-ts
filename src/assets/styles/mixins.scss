@@ -1,0 +1,42 @@
+// 全局通用函数
+@mixin common-title($center: center){
+    font-weight: bold;
+    text-align: $center;
+    padding: 5px 0px;
+}
+
+/* 单行超出隐藏 */
+ @mixin ellipsis() {
+     word-wrap: break-word;
+     word-break: break-all;
+     white-space: nowrap;
+     overflow: hidden;
+     text-overflow: ellipsis;
+ }
+ 
+ /* 多行超出隐藏 */
+ @mixin muit-ellipsis($line) {
+     word-break: break-all;
+     overflow: hidden;
+     text-overflow: ellipsis;
+     display: -webkit-box;
+     -webkit-line-clamp: $line;
+     -webkit-box-orient: vertical;
+ }
+
+ 
+ @mixin globalTransition( $time:0.3s) {
+     @if $time==0.3s {
+         -ms-transition: all 0.3s ease-in;       /* IE 9 */
+         -webkit-transition: all 0.3s ease-in;   /* Safari 和 Chrome */
+         -moz-transition: all 0.3s ease-in;      /* Firefox */
+         -o-transition: all 0.3s ease-in;        /* Opera */
+         transition: all 0.3s ease-in;
+     }@else{
+         -ms-transition: all $time ease-in;       /* IE 9 */
+         -webkit-transition: all $time ease-in;   /* Safari 和 Chrome */
+         -moz-transition: all $time ease-in;      /* Firefox */
+         -o-transition: all $time ease-in;        /* Opera */
+         transition: all $time ease-in;
+     }
+ }

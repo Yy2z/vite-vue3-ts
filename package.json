@@ -1,0 +1,60 @@
+{
+  "name": "vite-vue3-ts-demo",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@element-plus/icons": "0.0.11",
+    "autoprefixer": "^10.4.4",
+    "element-plus": "^1.1.0-beta.24",
+    "highlight.js": "^11.5.0",
+    "json-schema": ">=0.4.0",
+    "markdown-it-container": "^3.0.0",
+    "markdown-it-prism": "^2.2.3",
+    "markdown-loader": "^8.0.0",
+    "nprogress": "^0.2.0",
+    "three": "^0.136.0",
+    "three-obj-mtl-loader": "^1.0.3",
+    "three-orbit-controls": "^82.1.0",
+    "typings": "^2.1.1",
+    "vite-plugin-inspect": "^0.4.3",
+    "vite-plugin-markdown": "^2.0.2",
+    "vite-plugin-md": "^0.11.9",
+    "vite-plugin-pages": "^0.22.0",
+    "vue": "^3.2.16",
+    "vue-axios": "^3.4.1",
+    "vue-markdown": "^2.2.4",
+    "vue-router": "^4.0.12",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.5.14",
+    "@types/node": "^16.11.6",
+    "@types/three": "^0.136.1",
+    "@vitejs/plugin-vue": "^1.9.3",
+    "json-schema": ">=0.4.0",
+    "node-sass": "^6.0.1",
+    "sass": "^1.43.4",
+    "sass-loader": "^12.2.0",
+    "typescript": "^4.4.3",
+    "vite": "^2.6.4",
+    "vite-plugin-markdown": "^2.0.2",
+    "vue-tsc": "^0.3.0"
+  },
+  "description": ".",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yy2z/vite-vue3-ts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yy2z/vite-vue3-ts/issues"
+  },
+  "homepage": "https://github.com/Yy2z/vite-vue3-ts#readme"
+}

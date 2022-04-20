@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+     //"types": ["vite-svg-loader", "vite/client"],
+    "target": "esnext",//目标语言版本
+    "module": "esnext",//指定生成代码的模板标准
+    "moduleResolution": "node",//node模块解析
+    "strict": true,//启用严格模式
+    "jsx": "preserve",//jsx模板解析
+    "allowSyntheticDefaultImports": true,//允许有没有默认导出的模块导入
+    "noImplicitAny": true,//不允许隐式的any类型
+    "removeComments": true,//删除注释
+    "sourceMap": true,//生成目标文件的sourceMap文件
+    "strictNullChecks": true,//不允许把null、undefined赋值给其他类型的变量
+    "resolveJsonModule": true,//允许导入.json文件
+    "esModuleInterop": true,//允许导入额外的ts文件支持
+    "suppressImplicitAnyIndexErrors": true,//允许字符串下标表达式
+    "importHelpers" :  true ,
+    
+  
+    // "jquery": true,
+    "lib": ["esnext", "dom"],
+    "baseUrl": ".",
+    "paths": {
+      "@/*":["src/*"]
+    },
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue","src/**/*.md", "src/common/config/md.config.ts","src/common/config/md.config"]
+}
